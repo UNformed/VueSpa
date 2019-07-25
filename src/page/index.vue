@@ -65,6 +65,13 @@
           </template>
           <el-menu-item :index="indexes[1]">音乐系列</el-menu-item>
         </el-submenu>
+        <el-submenu index="test">
+          <template slot="title">
+            <i class="el-icon-service"></i>
+            <span slot="title">test模块</span>
+          </template>
+          <el-menu-item :index="indexes[2]">test系列</el-menu-item>
+        </el-submenu>
       </el-menu>
     </template>
     <template slot="main">
@@ -76,20 +83,22 @@
 import Shell from "../component/shell";
 import Home from "./home";
 import Music from "./music";
+import Test from "./test"
 var echarts = require("echarts");
 export default {
   components: {
     Shell,
     Home,
-    Music
+    Music,
+    Test
   },
   data() {
     return {
       series:[],
       isCollapse: true,
       muzhi: false,
-      indexes: ["/page/home", "/page/music"],
-      components: ["Home", "Music"],
+      indexes: ["/page/home", "/page/music", "/page/test"],
+      components: ["Home", "Music", "Test"],
       defaultActive: "/page/home",
       currentComponent: "Home",
       full: false
