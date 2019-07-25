@@ -17,7 +17,7 @@
         <div class="down">
           <div>
             <img src="../assets/iconfont/cloud-download.png" alt="云数据" class="iconfont">
-            <span class="txt">云数据</span>
+            <span class="txt">数据</span>
             <span class="num">30122</span>
           </div>
           <div>
