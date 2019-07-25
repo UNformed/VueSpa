@@ -23,7 +23,7 @@
           <div>
             <img src="../assets/iconfont/mail.png" alt="邮件" class="iconfont">
             <span class="txt">邮件</span>
-            <span class="num">102</span>
+            <span class="num">12</span>
           </div>
         </div>
       </div>
